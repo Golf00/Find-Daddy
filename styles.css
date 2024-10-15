@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.image-grid img {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.image-grid img:hover {
+    border-color: #ff6f61;
+}
+
+#resultMessage {
+    font-size: 1.2em;
+    color: #6c63ff;
+    margin-top: 20px;
+}
